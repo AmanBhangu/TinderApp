@@ -17,6 +17,7 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 ImageView imgButton;
+    ImageView imgButton1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +27,17 @@ ImageView imgButton;
         imgButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
+        imgButton1 = (ImageView)findViewById(R.id.imageButton);
+        imgButton1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Second.class);
                 startActivity(intent);
 
 
