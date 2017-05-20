@@ -8,59 +8,107 @@
 
 
     <LinearLayout
-        android:layout_width="784dp"
-        android:layout_height="1191dp"
+        android:layout_width="395dp"
+        android:layout_height="643dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="14dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
         android:orientation="vertical"
-        android:weightSum="1"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.375">
+        app:layout_constraintVertical_bias="1.0"
+        android:weightSum="1">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="122dp"
-            android:orientation="horizontal"
-            android:weightSum="1">
+            android:layout_height="81dp"
+            android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton11"
-                android:layout_width="98dp"
-                android:layout_height="98dp"
-                android:layout_weight="0.04"
+                android:id="@+id/imageButton3"
+                android:layout_width="55dp"
+                android:layout_height="42dp"
+                android:background="#FFFFFF"
                 app:srcCompat="@drawable/back" />
 
             <ImageView
-                android:id="@+id/imageView11"
-                android:layout_width="98dp"
-                android:layout_height="98dp"
-                android:layout_marginLeft="115dp"
-
+                android:id="@+id/imageView5"
+                android:layout_width="126dp"
+                android:layout_height="62dp"
+                android:layout_marginLeft="15dp"
                 app:srcCompat="@drawable/aa" />
 
             <TextView
-                android:id="@+id/textView19"
-                android:layout_width="60sp"
-                android:layout_height="77dp"
-                android:layout_marginLeft="20dp"
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
                 android:layout_marginTop="20dp"
-                android:layout_weight="0.20"
-                android:text="Alithia"
-                android:textSize="35dp"
-                 />
+                android:layout_marginRight="15dp"
+                android:textColor="#000"
+                android:textSize="20sp"
+                tools:text="Alithia" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="128dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="20dp"
+                app:srcCompat="@drawable/threesmalldots" />
 
         </LinearLayout>
 
         <TextView
-            android:id="@+id/textView22"
+            android:id="@+id/textView13"
             android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="TextView"
+            tools:text="          YOU MATCHED WITH ALITHIA ON 2017-05-03" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="88dp"
             android:layout_height="70dp"
-            android:textSize="25dp"
-            tools:text="                        YOU MATCHED WITH ALITHIA ON 2017-05-03" />
+            android:layout_gravity="right"
+            app:srcCompat="@drawable/hi" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="412dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.29"
+                app:srcCompat="@drawable/gif" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="160dp"
+                android:layout_height="28dp"
+                android:text=  "     Type a message...." />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_marginLeft="130dp"
+                android:background="#FFF"
+                android:text="       Send" />
+        </LinearLayout>
 
     </LinearLayout>
-
 </android.support.constraint.ConstraintLayout>
