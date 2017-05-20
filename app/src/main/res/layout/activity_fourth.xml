@@ -38,7 +38,7 @@
                 android:layout_width="98dp"
                 android:layout_height="98dp"
                 android:layout_marginLeft="115dp"
-                android:background="#FFFFFFF"
+
                 app:srcCompat="@drawable/aa" />
 
             <TextView
@@ -50,7 +50,7 @@
                 android:layout_weight="0.20"
                 android:text="Alithia"
                 android:textSize="35dp"
-                android:textcolor="#FFFFFFF" />
+                 />
 
         </LinearLayout>
 
