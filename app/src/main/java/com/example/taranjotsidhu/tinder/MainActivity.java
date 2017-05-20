@@ -12,6 +12,9 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.ImageView;
 
+
+
+
 public class MainActivity extends AppCompatActivity {
 ImageView imgButton;
     @Override
@@ -23,10 +26,14 @@ ImageView imgButton;
         imgButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),Second.class);
+                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(intent);
+
+
             }
         });
+
+
     }
 
     @Override

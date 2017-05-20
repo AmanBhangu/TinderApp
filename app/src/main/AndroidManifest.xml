@@ -22,7 +22,7 @@
         <activity
             android:name=".Second"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_second"
+            android:label="@string/title_activity_fullscreen"
             android:theme="@style/FullscreenTheme"></activity>
     </application>
 
