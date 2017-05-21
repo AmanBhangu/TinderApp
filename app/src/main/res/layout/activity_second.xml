@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
 
     tools:context="com.example.taranjotsidhu.tinder.Second">
 
@@ -31,10 +31,12 @@
 
 
             <ImageView
-                android:id="@+id/imageView6"
+
+                android:id="@+id/imageButton3"
                 android:layout_width="match_parent"
                 android:layout_height="320dp"
-                android:background="@drawable/amna" />
+                android:background="@drawable/amna"
+                android:onClick="messages"/>
         </LinearLayout>
 
         <TextView

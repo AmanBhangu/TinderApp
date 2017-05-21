@@ -20,9 +20,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Second"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".Third"
             android:theme="@style/AppTheme.NoActionBar">
 
@@ -36,7 +33,10 @@
         <activity
             android:name=".Fourth"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".sixth"></activity>
+        <activity android:name=".Second"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Fifth"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
