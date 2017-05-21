@@ -13,13 +13,18 @@ public class Third extends AppCompatActivity {
         setContentView(R.layout.activity_third);
     }
 
-        public void image(View view) {
-            Intent intent = new Intent(this, Fourth.class);
-            startActivity(intent);
-        }
+    public void image(View view) {
+        Intent intent = new Intent(this, Fourth.class);
+        startActivity(intent);
+    }
 
     public void mes(View view) {
-        Intent intent = new Intent(this,Fifth.class);
+        Intent intent = new Intent(this, Fifth.class);
+        startActivity(intent);
+    }
+
+    public void mes2(View view) {
+        Intent intent = new Intent(this, sixth.class);
         startActivity(intent);
     }
 }
