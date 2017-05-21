@@ -15,6 +15,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:orientation="vertical"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -26,8 +27,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="81dp"
+            android:background="#FFFFFF"
             android:orientation="horizontal">
-
             <ImageButton
                 android:id="@+id/imageButton3"
                 android:layout_width="55dp"
@@ -65,6 +66,7 @@
             android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="30dp"
+            android:background="#FFFFFF"
             android:text="TextView"
             tools:text="          YOU MATCHED WITH ALITHIA ON 2017-05-03" />
 
@@ -78,7 +80,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="412dp"
-            android:orientation="vertical">
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            >
 
         </LinearLayout>
 
@@ -86,6 +90,7 @@
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:orientation="horizontal"
+            android:background="#FFFFFF"
             android:weightSum="1">
 
             <ImageView
@@ -106,7 +111,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="38dp"
                 android:layout_marginLeft="130dp"
-                android:background="#FFF"
+                android:background="#FFFFFF"
                 android:text="       Send" />
         </LinearLayout>
 
