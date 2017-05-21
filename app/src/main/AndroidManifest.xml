@@ -19,15 +19,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Second" />
-        <activity android:name=".Third" >
+        <activity android:name=".Second"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Third"
+            android:theme="@style/AppTheme.NoActionBar" >
             <!--<intent-filter>-->
                 <!--<action android:name="android.intent.action.MAIN" />-->
 
                 <!--<category android:name="android.intent.category.LAUNCHER" />-->
             <!--</intent-filter>-->
         </activity>
-        <activity android:name=".Fourth"></activity>
+        <activity android:name=".Fourth"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
