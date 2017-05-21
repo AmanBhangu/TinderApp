@@ -32,32 +32,25 @@
             <ImageButton
                 android:id="@+id/imageButton3"
                 android:layout_width="55dp"
-                android:layout_height="42dp"
+                android:layout_height="45dp"
                 android:background="#FFFFFF"
+                android:layout_marginTop="5dp"
                 app:srcCompat="@drawable/back" />
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="126dp"
+                android:layout_width="83dp"
                 android:layout_height="62dp"
-                android:layout_marginLeft="15dp"
+                android:layout_marginLeft="90dp"
                 app:srcCompat="@drawable/aa" />
 
-            <TextView
-                android:id="@+id/textView9"
-                android:layout_width="wrap_content"
-                android:layout_height="34dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="15dp"
-                android:textColor="#000"
-                android:textSize="20sp"
-                tools:text="Alithia" />
+
 
             <ImageView
                 android:id="@+id/imageView11"
-                android:layout_width="128dp"
+                android:layout_width="52dp"
                 android:layout_height="52dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="105dp"
                 app:srcCompat="@drawable/threesmalldots" />
 
         </LinearLayout>
@@ -67,8 +60,9 @@
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:background="#FFFFFF"
-            android:text="TextView"
-            tools:text="          YOU MATCHED WITH ALITHIA ON 2017-05-03" />
+            android:text=" YOU MATCHED WITH ALITHIA ON 2017-05-03"
+            android:layout_marginLeft="60dp"
+             />
 
         <ImageView
             android:id="@+id/imageView15"
@@ -110,9 +104,9 @@
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="38dp"
-                android:layout_marginLeft="130dp"
+                android:layout_marginLeft="120dp"
                 android:background="#FFFFFF"
-                android:text="       Send" />
+                android:text="Send" />
         </LinearLayout>
 
     </LinearLayout>
